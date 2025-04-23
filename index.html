@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flashcard Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1> Flashcard Quiz</h1>
+    <div class="scoreboard">
+      <span>Time: <span id="timer">60</span>s</span>
+      <span>Score: <span id="score">0</span></span>
+      <button id="startBtn">Start</button>
+    </div>
+
+    <div id="flashcard-container"></div>
+
+    <div class="form-container">
+      <input type="text" id="questionInput" placeholder="Question" />
+      <input type="text" id="answerInput" placeholder="Answer" />
+      <button id="addFlashcard">Add Flashcard</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
